@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    text-align: center;
+}
+h1{
+    margin: 20px 0;
+}
+.calcy{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+#input{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    text-align: right;
+    outline: none;
+}
+button{
+    padding: 30px;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
